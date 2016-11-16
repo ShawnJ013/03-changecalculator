@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Change Calculator</title>
+    <h1>Change Calculator!</h1>
+    <link rel="styleSheet" href="index.css">
+    <link rel="styleSheet" href="bulma.css">
+    <link rel="styleSheet" href="gulpfile.js" </head>
+
+    <body>
+        <div id="wrap">
+            <div class="container">
+                <form>
+                    <div>
+                        <div>
+                            <label>How much is due for Sale:</label>
+                            <input id="amountDueForSale" type="text" name="Sale Price" />
+                            <div>
+                                <hr>
+                                <label>Amount Customer Paid:</label>
+                                <input id="customerPaid" type="text" name="Amount Given" />
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                    </div>
+                    <br>
+                    <br>
+                    <button type="button" class="primary" id="calculateChange">Calculate Change</button>
+                    <br>
+                    <br>
+                    <p id="change" type="text">
+                        <br>
+                        <br>
+                    </p>
+                    <div>
+                    </div>
+            </div>
+            <div class="container-fluid">
+                <div>
+                    <img id="moneyfree.jpg">
+                </div>
+                <table class="table table-hover">
+                    <thead>
+                        <tbody>
+                            <tr>
+                                <td>- Dollars</td>
+                                <td id='dollarsRemain'></td>
+                            </tr>
+                            <tr>
+                                <td>- Quarters</td>
+                                <td id='quartersRemain'></td>
+                            </tr>
+                            <tr>
+                                <td>- Dimes</td>
+                                <td id='dimesRemain'></td>
+                            </tr>
+                            <tr>
+                                <td>- Nickels</td>
+                                <td id='nickelsRemain'></td>
+                            </tr>
+                            <tr>
+                                <td>- Pennies</td>
+                                <td id='penniesRemain'></td>
+                            </tr>
+                    </thead>
+                    </tbody>
+                    <script src="index.js"></script>
+    </body>
+
+</html>

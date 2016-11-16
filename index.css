@@ -1,0 +1,39 @@
+/* "auto" makes the left and right margins center the wrapper */
+
+#wrap {
+    width: 800px;
+    margin: 0 auto;
+}
+
+button {
+    font-size: 20px;
+    color: green;
+    height: 50px;
+    width: 275px;
+    position: relative;
+    padding-right: center;
+    top: 17px;
+    bottom: 120px;
+}
+
+body {
+    background-color: grey;
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-image: url('moneyfree.jpg');
+    background-size: 490px 110%;
+}
+
+input {
+    padding-bottom: 10px;
+    font-size: 25px;
+}
+
+.container {
+    padding-top: 30px;
+    padding-bottom: 75px;
+}
+p {
+	font-size: 25px;
+	padding-top: 25px;
+}
